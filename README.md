@@ -9,10 +9,14 @@ docker build https://github.com/Swiftjitsu/dockerized-flask-demo
 
 Once the installation/configuration has completed, you will see something like the following message:
 
-`Successfully built 298e7987f9a4e2`
+```
+Successfully built 298e7987f9a4e2
+```
 
 Next, type the following to run the docker image:
 
-`docker run -p 5000:5000 298e7987f9a4e2`
+```
+docker run -p 5000:5000 298e7987f9a4e2
+```
 
 Finally, open your favorite browser and navigate to http://localhost:5000
