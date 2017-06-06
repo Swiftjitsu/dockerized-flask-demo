@@ -1,4 +1,4 @@
-FROM ubuntu:17:10
+FROM ubuntu
 RUN apt-get update
 RUN apt-get install -y python
 COPY . /app
