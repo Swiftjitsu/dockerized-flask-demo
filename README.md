@@ -5,7 +5,9 @@ To get started, Docker is a requirement to deploy this demo.  The Docker install
 
 After Docker has been installed, deploying this dockerized-flask-demo image is simple.  Type the following commands:
 
+```
 docker build https://github.com/Swiftjitsu/dockerized-flask-demo
+```
 
 Once the installation/configuration has completed, you will see something like the following message:
 
